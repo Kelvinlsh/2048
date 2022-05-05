@@ -9,7 +9,7 @@ import {
   moveDown,
   isOver,
   checkWin
-} from "./GameBoard";
+} from "./Board";
 
 const Cell = ({ number }) => {
   return (
