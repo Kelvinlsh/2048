@@ -11,7 +11,9 @@ export default function App() {
   );
 }
 
-const rootElement = document.getElementById("root");
+const domContainer = document.querySelector('#board');
+const root = ReactDOM.createRoot(domContainer);
+root.render(e(LikeButton));
 ReactDOM.render(
   <StrictMode>
     <App />
